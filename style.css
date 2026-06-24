@@ -1,0 +1,166 @@
+.hero
+{
+    position:relative;
+    background-image: url("https://www.touristegypt.com/wp-content/uploads/2023/01/Best-of-Cairo-Tour.jpg");
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:start;
+    padding: 20px;
+
+    min-height: 700px;
+    
+    color: #F2F7F2;
+    margin-bottom:45px;
+    
+}
+body
+{
+    background:linear-gradient(#3581B8,#FFCF99) ;
+    color:#F2F7F2
+}
+
+#h1hero,#h2hero{
+   
+    border: 2px dotted black;
+    border-radius: 5px; 
+    background:#A62639;
+    margin:20px;
+    padding: 6px;
+    font-family: "Safaniah",sans-serif;
+    font-size: 54px;
+}
+@font-face {
+    font-family: "Safaniah";
+    src: url("Safaniah.ttf");
+}
+
+.active
+{
+    text-align:center;
+    border: none;
+    padding:20px;
+    font-size: 20px;
+   color:#4A2C1A;
+   font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+.allimg
+{
+    display:flex;
+    align-items:flex-start; 
+    justify-content: space-around;
+    margin:auto;
+    padding: 0;
+    text-align:center;
+    gap:40px;
+}
+.img1,.img2,.img3
+{
+  position:relative;  
+  margin-left:12px;
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 80%;
+    transition: transform 0.3s;
+}
+.img1:hover,
+.img2:hover,
+.img3:hover
+{
+    transform: scale(1.05);
+}
+.guide
+{
+     max-width:900px;
+    margin:45px auto;
+    margin-left:250px;
+    margin-right:250px;
+    margin-top:45px;
+    padding-top:30px;
+    padding-right:30px;
+    padding-bottom:25px;
+    display:flex;
+    border:5px solid maroon;
+    background-color: #A62639;
+    border-radius:13px;
+   color:white;
+   justify-content: center;
+   align-items: center;
+   font-family:  "Edu NSW ACT Cursive", cursive;
+    
+}
+.woman
+{
+
+    margin:7px 20px;
+    padding:6px;
+    border:3px dotted #FFCF99 ;
+    border-radius: 10px;
+    
+}
+
+#act
+{  border: 2px ;
+    border-radius: 12px;;
+    width: fit-content;
+    margin: 0 auto;
+    padding: 15px;
+    margin-bottom:30px;
+    background-color:#A62639 ;
+    font-family: "Safaniah";
+    font-size: 45px;
+    color:#F2F7F2
+}
+.card
+{
+    width:300px;
+    text-align: center;
+}
+.card p{
+    line-height:1.5;
+}
+
+
+/* Responsive container */
+@media (max-width: 768px) {
+    .hero {
+        min-height: 50vh;
+        padding: 10px;
+    }
+
+    #h1hero, #h2hero {
+        font-size: clamp(20px, 6vw, 36px);
+    }
+
+    .allimg {
+        flex-direction: column;
+        align-items: center;
+        gap: 25px;
+    }
+
+    .card {
+        max-width: 90%;
+    }
+
+    .guide {
+        flex-direction: column;
+        text-align: center;
+        margin: 20px auto;
+        padding: 15px;
+    }
+
+    .woman {
+        max-width: 200px;
+        margin: 0 auto 15px auto;
+    }
+
+    #act {
+        font-size: clamp(24px, 6vw, 32px);
+        padding: 10px;
+    }
+}
