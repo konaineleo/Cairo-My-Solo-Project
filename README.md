@@ -1,4 +1,6 @@
 # Cairo-My-Solo-Project
+
+see my page live here-- https://konaineleo.github.io/Cairo-My-Solo-Project/
 Visit Cairo – Responsive Webpage  This project is a responsive webpage built with HTML and CSS that showcases Cairo, Egypt as a travel destination.
 Features
 Hero Section: A full‑width background image with title and subtitle introducing Cairo.
